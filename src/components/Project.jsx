@@ -32,8 +32,8 @@ const Project = () => {
     <div className=' flex flex-col gap-10 projectPage text-center'>
       <h1 className='text-white text-2xl py-2'>My Projects</h1>
       <div className='text-white flex text-xl justify-center  gap-10 gitlink'>
-        <a href='' className=' bg-amber-500 px-5 py-2'>Github Link</a>
-      <a href='' className=' bg-amber-500 px-5 py-2'>Dev.to Blogs</a></div>
+        <a href='https://github.com/vidhya12032000?tab=repositories' className=' bg-amber-500 px-5 py-2'>Github Link</a>
+      <a href='https://dev.to/vidhya_murali_5aabe7784bd' className=' bg-amber-500 px-5 py-2'>Dev.to Blogs</a></div>
       <div className="flex flex-row justify-center gap-8 flex-wrap projectContainer">
 
         {
