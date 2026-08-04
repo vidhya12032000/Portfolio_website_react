@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+header h1 {
+  @apply text-white;
+}
+
+.bg-primary {
+ background:linear-gradient(135deg,#600933,#100B2C,#0A1598) ;
+}
+
+.mobile-nav {
+  @apply fixed top-19 right-0 z-50 w-60 h-80 bg-amber-500 px-10 py-2;
+}
+
+.mobile-nav a {
+  @apply text-white text-xl  text-center  border-b-2  w-full   font-bold ;
+  
+}
+
+.mobile-nav a.active {
+  color: black;
+ 
+}
+.desktopnav a{
+  border: 2px solid transparent;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  
+}
+.desktopnav a.active {
+ 
+  border: 2px solid #FF0642;
+}
+
+/* Home page */
+.homepage{
+  min-height: 85vh;
+
+  background: url('./assets/heroBGimg.jpg');
+  /* background:linear-gradient(135deg,#600933,#100B2C,#0A1598) ; */
+  background-size: cover;  /* in tailwind   bg-cover and bg-center*/
+  background-position:top;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+/*About page*/
+.aboutPage{
+  min-height: 85vh;
+  background: url('./assets/magenta-concrete-textured-background-blank-space-with-vignette.jpg');
+  background-size: cover;
+  background-position: bottom;
+  color:rgb(10, 10, 10);
+  font-size:20px;
+  padding: 10px 20px;
+
+}
+
+.buttons button{
+  padding: 8px 20px;
+  width:200px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px;
+  background-color: antiquewhite;
+  cursor: pointer;
+
+}
+.buttons button:hover{
+  color:white;
+  background-color:#FF0642
+}
+.skills{
+  min-height: 90vh;
+  background: url(./assets/project.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+
+}
+.technology{
+background:transparent;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+width:400px;
+height:320px;
+border-radius: 10px;
+}
+
+.skillsList li{
+  background: rgb(132, 193, 46);
+  width: 200px;
+  padding-left: 25px;
+  margin-left: 90px;
+  font-weight: 600;
+  color:#b21e41;
+  border-radius: 10px;
+padding:2px 0px;
+}
+.projectPage{
+  min-height: 88vh;
+  background: url(./assets/projectBg.png);
+  background-position: center;
+  background-size: cover;
+}
+.projectItem h2{
+  background-color: rgb(227, 28, 177);
+  padding: 3px 10px;
+  border-radius: 20px;
+  border: none;
+}
+.projectItem img{
+  width:300px;
+  height:280px;
+  border-radius: 10px;
+
+}
+.projectItem a{
+  background: transparent;
+  padding: 3px  8px;
+  border-radius: 20px;
+
+}
+.projectItem a:hover{
+  background-color: #0A1598;
+  color:white;
+  font-weight: 500;
+}
+.gitlink a{
+  border-radius: 20px;
+  color:#0A1598
+
+}
+.gitlink a:hover{
+  background:linear-gradient(270deg,rgb(232, 94, 183),rgb(157, 222, 72)) ;
+
+}
