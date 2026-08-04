@@ -18,7 +18,7 @@ const Project = () => {
       title:"PortFolio",
       tech:"Html,Css,ReactJs,React Router,Tailwind CSS",
       image:portfolio,
-      link:""
+      link:"https://portfolio-website-react-beige.vercel.app/"
     },
       {
       title:"Quiz App",
