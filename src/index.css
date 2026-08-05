@@ -153,14 +153,18 @@ padding:2px 0px;
 
 .contact-container {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1000px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 80px;
+  background: url(./assets/contact_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-/* Left Side */
 
 .contact-info {
   flex: 1;
@@ -257,6 +261,7 @@ padding:2px 0px;
   .contact-container {
     flex-direction: column;
     gap: 50px;
+    background-position: right;
   }
 
   .contact-info h1 {
