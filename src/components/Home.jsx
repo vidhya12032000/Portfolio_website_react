@@ -11,7 +11,7 @@ const Home = () => {
     <div className='homepage'>
 
      <div>
-      <p className='text-xl text-white font-bold' >Hi there , Welcome to my site</p>
+      <p className='text-xl text-white font-bold py-5' >Hi there , Welcome to my site</p>
      <h1 className="text-2xl md:text-3xl text-white pb-10">
 
    I am Vidhya 

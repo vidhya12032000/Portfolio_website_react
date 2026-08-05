@@ -37,10 +37,11 @@ header h1 {
 .homepage{
   min-height: 85vh;
 
-  background: url('./assets/heroBGimg.jpg');
+  /* background: url('./assets/heroBGimg.jpg'); */
+  background: url('./assets/homeBackground.jpg');
   /* background:linear-gradient(135deg,#600933,#100B2C,#0A1598) ; */
   background-size: cover;  /* in tailwind   bg-cover and bg-center*/
-  background-position:top;
+  background-position:right;
   padding-left: 50px;
   padding-top: 50px;
 }
@@ -149,6 +150,7 @@ padding:2px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(145, 184, 184);
 }
 
 .contact-container {
