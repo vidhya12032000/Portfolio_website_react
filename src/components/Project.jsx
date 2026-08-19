@@ -3,16 +3,23 @@ import React from 'react'
 import portfolio from "../assets/portfolio.jpg"
 import quiz from "../assets/quiz.jpeg"
 import ecommerce from "../assets/ecommerce.webp"
+import netflix from "../assets/netflix.png"
 
 const Project = () => {
 
   const projects=[
-
     {
       title:"E-Commerce Website",
       tech:"Html,Css,ReactJs,React Router,ReactHooks",
       image:ecommerce,
       link:"https://shopping-time-react-e-commerce-shop.vercel.app/"
+    },
+
+    {
+      title:"NetFlix Clone",
+      tech:"Html,Css,ReactJs,React Router,ReactHooks",
+      image:netflix,
+      link:"https://netflix-clone-react-two-flax.vercel.app/"
     },
       {
       title:"PortFolio",
